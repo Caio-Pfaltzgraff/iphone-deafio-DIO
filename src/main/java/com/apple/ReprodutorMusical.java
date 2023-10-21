@@ -1,10 +1,8 @@
 package com.apple;
 
 public interface ReprodutorMusical {
+    void tocarMusica();
+    void pausarMusica();
+    void selecionarMusica(Musica musica);
 
-    public void tocar();
-
-    public void pausar();
-
-    public void selecionarMusica();
 }

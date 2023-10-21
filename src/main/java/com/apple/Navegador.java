@@ -1,7 +1,10 @@
 package com.apple;
 
 public interface Navegador {
-    public void exibirPagina();
-    public void adicionarNovaAba();
-    public void atualizarPagina();
+
+    void exibirPagina(String url);
+    void adicionarNovaAba(Aba aba);
+    void atualizarPagina(Aba aba);
+
+
 }
